@@ -1,0 +1,208 @@
+@font-face {
+    font-family: anndroid;
+    src: url(fontes/idroid.otf);
+}
+
+/* geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:arial, sans-serif;
+    cursor: default;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+p {
+    font-weight: normal;
+}
+
+/* header */
+
+/* cores:
+degrade #3CD983 #154A2D*/
+
+header {
+    width: 100%;
+    background: linear-gradient(#3CD983, #154A2D);
+    text-align: center;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.466);
+}
+
+header h1 {
+    font-family:serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.432);
+    justify-content: center;
+    padding: 1% 0 2% 0;
+    color: white;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
+}
+
+header a {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.582);
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+}
+
+header a:hover {
+    background: linear-gradient(to right, #3cd983af, #3cd98300);
+    transition-duration: 1s;
+}
+
+header li {
+    padding-left: 18px;
+    margin-bottom: 2%;
+    display: inline-block;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    padding-left: 2%;
+    justify-content: center;
+}
+
+
+/* main */
+
+main {
+    margin: auto;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    width: min-content;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.425);
+}
+
+main span {
+    font-weight: bold;
+    color: #2A6746;
+}
+
+main h2, h1 {
+    font-family: anndroid;
+    display: block;
+    color: #2A6746;
+}
+
+main h1 {
+    padding: 3% 0 1% 0;
+    margin-left: 3%;
+}
+
+main h2 {
+    padding-left: 2%;
+    margin-left: 3%;
+    background: linear-gradient(to right, #C7ECD7, white, white);
+    border-radius: 3px;
+}
+
+main p {
+    text-indent: 40px;
+    text-align: justify;
+    display: block;
+    margin: 3%;
+}
+
+main a {
+    text-decoration: none;
+    color: #2A6746;
+    font-weight: bold;
+}
+
+main a::after {
+    content: '  link';
+    color: gray;
+    font-weight: lighter;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+article picture, source, img {
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    margin: auto;
+}
+
+
+/* video */
+
+.video {
+    display: flex;
+    padding: 3%;
+    background-color: #1A5C38;
+    justify-content: center;
+}
+
+.video iframe {
+    display: flex;
+    width: 95%;
+}
+
+
+/* extras */
+
+.pex {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    text-indent: 0;
+}
+
+.pex2 {
+    margin-top: 0;
+}
+
+.extracabeça {
+    display: flex;
+    background-color: #2FA866;
+    margin: 0 4% 0 4%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
+}
+
+.extracorpo {
+    background-color: #C5EBD6;
+    margin: 0 4% 0 4%;
+    padding: 16px 0 16px 0;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
+}
+
+.listas {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+}
